@@ -1,15 +1,14 @@
-import '../src/styles/App.css';
+import Header from './Header';
+import Body from './Body';
+import Footer from './Footer';
 
-function App() {
+function App() { 
   return (
-    <nav>
-      <h1>Howdy Jen</h1>
-      <ul>
-        <li>Pricing</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    <div>
+      <Header />
+      <Body />
+      <Footer />
+    </div>
   );
 }
 

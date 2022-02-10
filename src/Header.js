@@ -1,11 +1,16 @@
 import '../src/styles/App.css';
-import deer from './deer.jpg';
+import deer from './images/deer.jpg';
 
 function Header() { 
   return (
       <header>
         <nav>
-          <img src={deer} width={200} alt="Deer" />   
+          <img className="deer" src={deer} alt="Deer" />
+          <ul className="nav-items">
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>  
         </nav> 
       </header>
   );
